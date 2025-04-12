@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-31T12:30:59 IST" name="Default suite" finished-at="2025-03-31T12:31:11 IST" duration-ms="11841">
+    <groups>
+    </groups>
+    <test started-at="2025-03-31T12:30:59 IST" name="Default test" finished-at="2025-03-31T12:31:11 IST" duration-ms="11841">
+      <class name="regression.Tc001">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:regression.Tc001@47e2e487]" started-at="2025-03-31T12:30:59 IST" name="beforetest" finished-at="2025-03-31T12:30:59 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="tc001(java.util.HashMap)[pri:0, instance:regression.Tc001@47e2e487]" started-at="2025-03-31T12:31:00 IST" name="tc001" data-provider="gettestdata" finished-at="2025-03-31T12:31:10 IST" duration-ms="10163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=reyaz123, exptitle=Adactin.com - Search Hotel, username=reyaz0806}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc001 -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:regression.Tc001@47e2e487]" started-at="2025-03-31T12:31:10 IST" name="quit" finished-at="2025-03-31T12:31:11 IST" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- regression.Tc001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
